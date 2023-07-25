@@ -1,0 +1,131 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.cabecalho {
+    font-family: "Dancing script", cursive;
+    font-size: 35px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.selecao-de-elementos .elemento-selecionado img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.selecao-de-elementos .secao-lateral {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 5%;
+}
+
+.selecao-de-elementos .secao-lateral .legenda img {
+    max-width: 200px;
+    max-height: 200px;
+    margin-top: 50px;
+}
+
+.selecao-de-elementos .lista-de-elementos img {
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.selecao-de-elementos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.tabela {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tabela .linha-1 .lista-de-elementos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tabela .linha-2 .lista-de-elementos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tabela .linha-2 .lista-de-elementos .l2 {
+    display: flex;
+    gap: 4px;
+}
+
+.tabela .linha-3 .lista-de-elementos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tabela .linha-3 .lista-de-elementos .l3 {
+    display: flex;
+    gap: 4px;
+}
+
+.tabela .linha-4 .lista-de-elementos .l4 {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+}
+
+.tabela .linha-5 .lista-de-elementos .l5 {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+}
+
+.tabela .linha-6 .lista-de-elementos .l6 {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+}
+
+.tabela .linha-7 .lista-de-elementos .l7 {
+    display: flex;
+    justify-content: left;
+    gap: 4px;
+}
+
+.tabela .lantanidios {
+    display: flex;
+    flex-direction: column;
+}
+
+.tabela .lantanidios .titulo-lan {
+    margin-left: 132px;
+    margin-top: 30px;
+}
+
+.tabela .lantanidios .lista-de-elementos {
+    display: flex;
+    gap: 4px;
+    justify-content: right;
+}
+
+.tabela .actinidios {
+    display: flex;
+    flex-direction: column;
+}
+
+.tabela .actinidios .titulo-act {
+    margin-left: 132px;
+    margin-top: 30px;
+}
+
+.tabela .actinidios .lista-de-elementos {
+    display: flex;
+    gap: 4px;
+    justify-content: right;
+}
