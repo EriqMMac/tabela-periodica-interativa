@@ -13,6 +13,10 @@ body {
     margin-bottom: 10px;
 }
 
+.selecao-de-elementos .lista-de-elementos .elemento.selecionado{
+    box-shadow: 0px 0px 10px 5px rgb(255, 255, 255);
+}
+
 .selecao-de-elementos .elemento-selecionado img {
     max-width: 300px;
     max-height: 300px;
