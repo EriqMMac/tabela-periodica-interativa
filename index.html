@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Periodica</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1 class="titulo">Tabela Periodica</h1>
+    </header>
+
+    <main class="selecao-de-elementos">
+        <section class="secao-lateral">
+            <section class="elemento-selecionado">
+                <img class="elemento-grande" src="./src/imagens/hidrogenio.jpg" alt="Elemento selecionado">
+            </section>
+            <section class="legenda">
+                <img src="./src/imagens/legenda.jpg" alt="Legenda">
+            </section>
+        </section>
+
+        <section class="tabela">
+            <section class="linha-1">
+                <section class="lista-de-elementos">
+                    <ul class="l1 esquerda">
+                        <li class="elemento selecionado" id="hidrogenio">
+                            <img src="./src/imagens/hidrogenio.jpg" alt="Elemento hidrogenio">
+                        </li>
+                    </ul>
+
+                    <ul class="l1 direita">
+                        <li class="elemento" id="helio">
+                            <img src="./src/imagens/helio.jpg" alt="Elemento helio">
+                        </li>
+                    </ul>
+                </section>
+            </section>
+
+            <section class="linha-2">
+                <section class="lista-de-elementos">
+                    <ul class="l2 direita">
+                        <li class="elemento" id="litio">
+                            <img src="./src/imagens/litio.jpg" alt="Elemento litio">
+                        </li>
+
+                        <li class="elemento" id="berilio">
+                            <img src="./src/imagens/berilio.jpg" alt="Elemento berilio">
+                        </li>
+                    </ul>
+
+                    <ul class="l2 esquerda">
+                        <li class="elemento" id="boro">
+                            <img src="./src/imagens/boro.jpg" alt="Elemento boro">
+                        </li>
+
+                        <li class="elemento" id="carbono">
+                            <img src="./src/imagens/carbono.jpg" alt="Elemento carbono">
+                        </li>
+
+                        <li class="elemento" id="nitrogenio">
+                            <img src="./src/imagens/nitrogenio.jpg" alt="Elemento nitrogenio">
+                        </li>
+
+                        <li class="elemento" id="oxigenio">
+                            <img src="./src/imagens/oxigenio.jpg" alt="Elemento oxigenio">
+                        </li>
+
+                        <li class="elemento" id="fluor">
+                            <img src="./src/imagens/fluor.jpg" alt="Elemento fluor">
+                        </li>
+
+                        <li class="elemento" id="neonio">
+                            <img src="./src/imagens/neonio.jpg" alt="Elemento neonio">
+                        </li>
+                    </ul>
+
+                </section>
+            </section>
+
+            <section class="linha-3">
+                <section class="lista-de-elementos">
+                    <ul class="l3 esquerda">
+                        <li class="elemento" id="sodio">
+                            <img src="./src/imagens/sodio.jpg" alt="Elemento sodio">
+                        </li>
+
+                        <li class="elemento" id="magnesio">
+                            <img src="./src/imagens/magnesio.jpg" alt="Elemento magnesio">
+                        </li>
+                    </ul>
+
+                    <ul class="l3 direita">
+                        <li class="elemento" id="aluminio">
+                            <img src="./src/imagens/aluminio.jpg" alt="Elemento aluminio">
+                        </li>
+
+                        <li class="elemento" id="silicio">
+                            <img src="./src/imagens/silicio.jpg" alt="Elemento silicio">
+                        </li>
+
+                        <li class="elemento" id="fosforo">
+                            <img src="./src/imagens/fosforo.jpg" alt="Elemento fosforo">
+                        </li>
+
+                        <li class="elemento" id="enxofre">
+                            <img src="./src/imagens/enxofre.jpg" alt="Elemento enxofre">
+                        </li>
+
+                        <li class="elemento" id="cloro">
+                            <img src="./src/imagens/cloro.jpg" alt="Elemento cloro">
+                        </li>
+
+                        <li class="elemento" id="argonio">
+                            <img src="./src/imagens/argonio.jpg" alt="Elemento argonio">
+                        </li>
+                    </ul>
+                </section>
+            </section>
+
+            <section class="linha-4">
+                <section class="lista-de-elementos">
+                    <ul class="l4">
+                        <li class="elemento" id="potassio">
+                            <img src="./src/imagens/potassio.jpg" alt="Elemento potassio">
+                        </li>
+
+                        <li class="elemento" id="calcio">
+                            <img src="./src/imagens/calcio.jpg" alt="Elemento calcio">
+                        </li>
+
+                        <li class="elemento" id="escandio">
+                            <img src="./src/imagens/escandio.jpg" alt="Elemento escandio">
+                        </li>
+
+                        <li class="elemento" id="titanio">
+                            <img src="./src/imagens/titanio.jpg" alt="Elemento titanio">
+                        </li>
+
+                        <li class="elemento" id="vanadio">
+                            <img src="./src/imagens/vanadio.jpg" alt="Elemento vanadio">
+                        </li>
+
+                        <li class="elemento" id="cromio">
+                            <img src="./src/imagens/cromio.jpg" alt="Elemento cromio">
+                        </li>
+
+                        <li class="elemento" id="manganes">
+                            <img src="./src/imagens/manganes.jpg" alt="Elemento manganes">
+                        </li>
+
+                        <li class="elemento" id="ferro">
+                            <img src="./src/imagens/ferro.jpg" alt="Elemento ferro">
+                        </li>
+
+                        <li class="elemento" id="cobalto">
+                            <img src="./src/imagens/cobalto.jpg" alt="Elemento cobalto">
+                        </li>
+
+                        <li class="elemento" id="niquel">
+                            <img src="./src/imagens/niquel.jpg" alt="Elemento niquel">
+                        </li>
+
+                        <li class="elemento" id="cobre">
+                            <img src="./src/imagens/cobre.jpg" alt="Elemento cobre">
+                        </li>
+
+                        <li class="elemento" id="zinco">
+                            <img src="./src/imagens/zinco.jpg" alt="Elemento zinco">
+                        </li>
+
+                        <li class="elemento" id="galio">
+                            <img src="./src/imagens/galio.jpg" alt="Elemento galio">
+                        </li>
+
+                        <li class="elemento" id="germanio">
+                            <img src="./src/imagens/germanio.jpg" alt="Elemento germanio">
+                        </li>
+
+                        <li class="elemento" id="arsenio">
+                            <img src="./src/imagens/arsenio.jpg" alt="Elemento arsenio">
+                        </li>
+
+                        <li class="elemento" id="selenio">
+                            <img src="./src/imagens/selenio.jpg" alt="Elemento selenio">
+                        </li>
+
+                        <li class="elemento" id="bromo">
+                            <img src="./src/imagens/bromo.jpg" alt="Elemento bromo">
+                        </li>
+
+                        <li class="elemento" id="criptonio">
+                            <img src="./src/imagens/criptonio.jpg" alt="Elemento criptonio">
+                        </li>
+                    </ul>
+                </section>
+            </section>
+
+            <section class="linha-5">
+                <section class="lista-de-elementos">
+                    <ul class="l5">
+                        <li class="elemento" id="rubidio">
+                            <img src="./src/imagens/rubidio.jpg" alt="Elemento rubidio">
+                        </li>
+
+                        <li class="elemento" id="estroncio">
+                            <img src="./src/imagens/estroncio.jpg" alt="Elemento estroncio">
+                        </li>
+
+                        <li class="elemento" id="itrio">
+                            <img src="./src/imagens/itrio.jpg" alt="Elemento itrio">
+                        </li>
+
+                        <li class="elemento" id="zirconio">
+                            <img src="./src/imagens/zirconio.jpg" alt="Elemento zirconio">
+                        </li>
+
+                        <li class="elemento" id="niobio">
+                            <img src="./src/imagens/niobio.jpg" alt="Elemento niobio">
+                        </li>
+
+                        <li class="elemento" id="molibdenio">
+                            <img src="./src/imagens/molibdenio.jpg" alt="Elemento molibdenio">
+                        </li>
+
+                        <li class="elemento" id="tecnecio">
+                            <img src="./src/imagens/tecnecio.jpg" alt="Elemento tecnecio">
+                        </li>
+
+                        <li class="elemento" id="rutenio">
+                            <img src="./src/imagens/rutenio.jpg" alt="Elemento rutenio">
+                        </li>
+
+                        <li class="elemento" id="rodio">
+                            <img src="./src/imagens/rodio.jpg" alt="Elemento rodio">
+                        </li>
+
+                        <li class="elemento" id="paladio">
+                            <img src="./src/imagens/paladio.jpg" alt="Elemento paladio">
+                        </li>
+
+                        <li class="elemento" id="prata">
+                            <img src="./src/imagens/prata.jpg" alt="Elemento prata">
+                        </li>
+
+                        <li class="elemento" id="cadmio">
+                            <img src="./src/imagens/cadmio.jpg" alt="Elemento cadmio">
+                        </li>
+
+                        <li class="elemento" id="indio">
+                            <img src="./src/imagens/indio.jpg" alt="Elemento indio">
+                        </li>
+
+                        <li class="elemento" id="estanho">
+                            <img src="./src/imagens/estanho.jpg" alt="Elemento estanho">
+                        </li>
+
+                        <li class="elemento" id="antimonio">
+                            <img src="./src/imagens/antimonio.jpg" alt="Elemento antimonio">
+                        </li>
+
+                        <li class="elemento" id="telurio">
+                            <img src="./src/imagens/telurio.jpg" alt="Elemento telurio">
+                        </li>
+
+                        <li class="elemento" id="iodo">
+                            <img src="./src/imagens/iodo.jpg" alt="Elemento iodo">
+                        </li>
+
+                        <li class="elemento" id="xenonio">
+                            <img src="./src/imagens/xenonio.jpg" alt="Elemento xenonio">
+                        </li>
+                    </ul>
+                </section>
+            </section>
+
+            <section class="linha-6">
+                <section class="lista-de-elementos">
+                    <ul class="l6">
+                        <li class="elemento" id="cesio">
+                            <img src="./src/imagens/cesio.jpg" alt="Elemento cesio">
+                        </li>
+
+                        <li class="elemento" id="bario">
+                            <img src="./src/imagens/bario.jpg" alt="Elemento bario">
+                        </li>
+
+                        <li class="elemento" id="serielan">
+                            <img src="./src/imagens/serielan.jpg" alt="Elemento serielan">
+                        </li>
+
+                        <li class="elemento" id="hafnio">
+                            <img src="./src/imagens/hafnio.jpg" alt="Elemento hafnio">
+                        </li>
+
+                        <li class="elemento" id="tantalo">
+                            <img src="./src/imagens/tantalo.jpg" alt="Elemento tantalo">
+                        </li>
+
+                        <li class="elemento" id="tungstenio">
+                            <img src="./src/imagens/tungstenio.jpg" alt="Elemento tungstenio">
+                        </li>
+
+                        <li class="elemento" id="renio">
+                            <img src="./src/imagens/renio.jpg" alt="Elemento renio">
+                        </li>
+
+                        <li class="elemento" id="osmio">
+                            <img src="./src/imagens/osmio.jpg" alt="Elemento osmio">
+                        </li>
+
+                        <li class="elemento" id="iridio">
+                            <img src="./src/imagens/iridio.jpg" alt="Elemento iridio">
+                        </li>
+
+                        <li class="elemento" id="platina">
+                            <img src="./src/imagens/platina.jpg" alt="Elemento platina">
+                        </li>
+
+                        <li class="elemento" id="ouro">
+                            <img src="./src/imagens/ouro.jpg" alt="Elemento ouro">
+                        </li>
+
+                        <li class="elemento" id="mercurio">
+                            <img src="./src/imagens/mercurio.jpg" alt="Elemento mercurio">
+                        </li>
+
+                        <li class="elemento" id="talio">
+                            <img src="./src/imagens/talio.jpg" alt="Elemento talio">
+                        </li>
+
+                        <li class="elemento" id="chumbo">
+                            <img src="./src/imagens/chumbo.jpg" alt="Elemento chumbo">
+                        </li>
+
+                        <li class="elemento" id="bismuto">
+                            <img src="./src/imagens/bismuto.jpg" alt="Elemento bismuto">
+                        </li>
+
+                        <li class="elemento" id="polonio">
+                            <img src="./src/imagens/polonio.jpg" alt="Elemento polonio">
+                        </li>
+
+                        <li class="elemento" id="astato">
+                            <img src="./src/imagens/astato.jpg" alt="Elemento astato">
+                        </li>
+
+                        <li class="elemento" id="radonio">
+                            <img src="./src/imagens/radonio.jpg" alt="Elemento radonio">
+                        </li>
+                    </ul>
+                </section>
+            </section>
+
+            <section class="linha-7">
+                <section class="lista-de-elementos">
+                    <ul class="l7">
+                        <li class="elemento" id="francio">
+                            <img src="./src/imagens/francio.jpg" alt="Elemento francio">
+                        </li>
+
+                        <li class="elemento" id="radio">
+                            <img src="./src/imagens/radio.jpg" alt="Elemento radio">
+                        </li>
+
+                        <li class="elemento" id="serieact">
+                            <img src="./src/imagens/serieact.jpg" alt="Elemento serieact">
+                        </li>
+
+                        <li class="elemento" id="rutherfordio">
+                            <img src="./src/imagens/rutherfordio.jpg" alt="Elemento rutherfordio">
+                        </li>
+
+                        <li class="elemento" id="dubnio">
+                            <img src="./src/imagens/dubnio.jpg" alt="Elemento dubnio">
+                        </li>
+
+                        <li class="elemento" id="seaborgio">
+                            <img src="./src/imagens/seaborgio.jpg" alt="Elemento seaborgio">
+                        </li>
+
+                        <li class="elemento" id="bohrio">
+                            <img src="./src/imagens/bohrio.jpg" alt="Elemento bohrio">
+                        </li>
+
+                        <li class="elemento" id="hassio">
+                            <img src="./src/imagens/hassio.jpg" alt="Elemento hassio">
+                        </li>
+
+                        <li class="elemento" id="meitnerio">
+                            <img src="./src/imagens/meitnerio.jpg" alt="Elemento meitnerio">
+                        </li>
+
+                        <li class="elemento" id="ununilio">
+                            <img src="./src/imagens/ununilio.jpg" alt="Elemento ununilio">
+                        </li>
+
+                        <li class="elemento" id="unununio">
+                            <img src="./src/imagens/unununio.jpg" alt="Elemento unununio">
+                        </li>
+
+                        <li class="elemento" id="unumbio">
+                            <img src="./src/imagens/unumbio.jpg" alt="Elemento unumbio">
+                        </li>
+                    </ul>
+                </section>
+            </section>
+
+            <section class="lantanidios">
+                <h2 class="titulo-lan">Lantanídios</h2>
+                <ul class="lista-de-elementos lan">
+                    <li class="elemento" id="lantanio">
+                        <img src="./src/imagens/lantanio.jpg" alt="Elemento lantanio">
+                    </li>
+
+                    <li class="elemento" id="cerio">
+                        <img src="./src/imagens/cerio.jpg" alt="Elemento cerio">
+                    </li>
+
+                    <li class="elemento" id="praseodimio">
+                        <img src="./src/imagens/praseodimio.jpg" alt="Elemento praseodimio">
+                    </li>
+
+                    <li class="elemento" id="neodimio">
+                        <img src="./src/imagens/neodimio.jpg" alt="Elemento neodimio">
+                    </li>
+
+                    <li class="elemento" id="promecio">
+                        <img src="./src/imagens/promecio.jpg" alt="Elemento promecio">
+                    </li>
+
+                    <li class="elemento" id="samario">
+                        <img src="./src/imagens/samario.jpg" alt="Elemento samario">
+                    </li>
+
+                    <li class="elemento" id="europio">
+                        <img src="./src/imagens/europio.jpg" alt="Elemento europio">
+                    </li>
+
+                    <li class="elemento" id="gadolinio">
+                        <img src="./src/imagens/gadolinio.jpg" alt="Elemento gadolinio">
+                    </li>
+
+                    <li class="elemento" id="terbio">
+                        <img src="./src/imagens/terbio.jpg" alt="Elemento terbio">
+                    </li>
+
+                    <li class="elemento" id="disprosio">
+                        <img src="./src/imagens/disprosio.jpg" alt="Elemento disprosio">
+                    </li>
+
+                    <li class="elemento" id="holmio">
+                        <img src="./src/imagens/holmio.jpg" alt="Elemento holmio">
+                    </li>
+
+                    <li class="elemento" id="erbio">
+                        <img src="./src/imagens/erbio.jpg" alt="Elemento erbio">
+                    </li>
+
+                    <li class="elemento" id="tulio">
+                        <img src="./src/imagens/tulio.jpg" alt="Elemento tulio">
+                    </li>
+
+                    <li class="elemento" id="iterbio">
+                        <img src="./src/imagens/iterbio.jpg" alt="Elemento iterbio">
+                    </li>
+
+                    <li class="elemento" id="lutecio">
+                        <img src="./src/imagens/lutecio.jpg" alt="Elemento lutecio">
+                    </li>
+                </ul>
+            </section>
+
+            <section class="actinidios">
+                <h2 class="titulo-act">Actinídios</h2>
+                <ul class="lista-de-elementos act">
+                    <li class="elemento" id="actinio">
+                        <img src="./src/imagens/actinio.jpg" alt="Elemento actinio">
+                    </li>
+
+                    <li class="elemento" id="torio">
+                        <img src="./src/imagens/torio.jpg" alt="Elemento torio">
+                    </li>
+
+                    <li class="elemento" id="protactinio">
+                        <img src="./src/imagens/protactinio.jpg" alt="Elemento protactinio">
+                    </li>
+
+                    <li class="elemento" id="uranio">
+                        <img src="./src/imagens/uranio.jpg" alt="Elemento uranio">
+                    </li>
+
+                    <li class="elemento" id="neptunio">
+                        <img src="./src/imagens/neptunio.jpg" alt="Elemento neptunio">
+                    </li>
+
+                    <li class="elemento" id="plutonio">
+                        <img src="./src/imagens/plutonio.jpg" alt="Elemento plutonio">
+                    </li>
+
+                    <li class="elemento" id="americio">
+                        <img src="./src/imagens/americio.jpg" alt="Elemento americio">
+                    </li>
+
+                    <li class="elemento" id="curio">
+                        <img src="./src/imagens/curio.jpg" alt="Elemento curio">
+                    </li>
+
+                    <li class="elemento" id="berquelio">
+                        <img src="./src/imagens/berquelio.jpg" alt="Elemento berquelio">
+                    </li>
+
+                    <li class="elemento" id="californio">
+                        <img src="./src/imagens/californio.jpg" alt="Elemento californio">
+                    </li>
+
+                    <li class="elemento" id="einstenio">
+                        <img src="./src/imagens/einstenio.jpg" alt="Elemento einstenio">
+                    </li>
+
+                    <li class="elemento" id="fermio">
+                        <img src="./src/imagens/fermio.jpg" alt="Elemento fermio">
+                    </li>
+
+                    <li class="elemento" id="mendelevio">
+                        <img src="./src/imagens/mendelevio.jpg" alt="Elemento mendelevio">
+                    </li>
+
+                    <li class="elemento" id="nobelio">
+                        <img src="./src/imagens/nobelio.jpg" alt="Elemento nobelio">
+                    </li>
+
+                    <li class="elemento" id="laurencio">
+                        <img src="./src/imagens/laurencio.jpg" alt="Elemento laurencio">
+                    </li>
+                </ul>
+            </section>
+        </section>
+    </main>
+
+<script src="./src/js/index.js"></script>
+
+</body>
+
+</html>
