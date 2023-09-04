@@ -13,7 +13,7 @@ body {
     margin-bottom: 10px;
 }
 
-.selecao-de-elementos .lista-de-elementos .elemento.selecionado{
+.selecao-de-elementos .lista-de-elementos .elemento.selecionado {
     box-shadow: 0px 0px 10px 5px rgb(255, 255, 255);
 }
 
@@ -35,6 +35,12 @@ body {
     margin-top: 50px;
 }
 
+.selecao-de-elementos .lista-de-elementos  {
+    max-width: 788px;
+    /* max-height: 40px; */
+    height: 40px;
+}
+
 .selecao-de-elementos .lista-de-elementos img {
     max-width: 40px;
     max-height: 40px;
@@ -51,6 +57,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 4px;
 }
 
 .tabela .linha-1 .lista-de-elementos {
@@ -132,4 +139,9 @@ body {
     display: flex;
     gap: 4px;
     justify-content: right;
+}
+
+.elemento {
+    width: 40px;
+    height: 40px;
 }
